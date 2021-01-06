@@ -1,8 +1,8 @@
-# Instegram-MagicTrick
+# Instagram-MagicTrick
 
 
-This app can send an Instegram massage to your friends, 
-This app can be used for doing a magic trick when you know your friend card/number he picked you can send a xhr request in the app that wait the time you choose for acivte the server automation that send the Instegram massage.
+This app can send an Instagram massage to your friends, 
+This app can be used for doing a magic trick when you know your friend card/number he picked you can send a xhr request in the app that wait the time you choose for acivte the server automation that send the Instagram massage.
 
 Make sure you have a node on your compter
 Clone you project to your computer
