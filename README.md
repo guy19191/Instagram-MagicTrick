@@ -11,6 +11,10 @@ Goto the trminal, write
 "npm i"
 Press enter
 
+Write on the trminal
+"npm i puppeteer core express"
+Press enter
+
 then get to the tests folder in the trminal and write
 "node example.test.js"
 Press enter
