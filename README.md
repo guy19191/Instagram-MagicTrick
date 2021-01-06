@@ -6,7 +6,8 @@ This app can be used for doing a magic trick when you know your friend card/numb
 
 Make sure you have a node on your compter
 Clone you project to your computer
-
+Change the values in the tests -> config.js file
+to your username and password of your own instegram
 Goto the trminal, write 
 "npm i"
 Press enter
