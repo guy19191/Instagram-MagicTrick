@@ -1,0 +1,26 @@
+{
+  "name": "autoamtion",
+  "version": "1.0.0",
+  "description": "automated softwer",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -- timeout=30000 ./tests"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "Guy",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "mocha": "^8.2.1",
+    "prettier": "^2.1.2",
+    "puppeteer": "^5.4.1"
+  }
+}
