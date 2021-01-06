@@ -32,4 +32,4 @@ Press enter
 Your chrome will open and then you can write your megic 
 Write your friend instegram user
 Write the number/card you want to send
-Write the time you want it to wait until it will send the massage (in sseconds)
+Write the time you want it to wait until it will send the massage (in seconds)
