@@ -8,19 +8,20 @@ Make sure you have a node on your compter
 Clone you project to your computer
 Change the values in the tests -> config.js file
 to your username and password of your own instegram
-Goto the trminal, write 
+
+Goto the terminal, write 
 "npm i"
 Press enter
 
-Write on the trminal
+Write on the terminal
 "npm i puppeteer core express"
 Press enter
 
-then get to the tests folder in the trminal and write
+then get to the tests folder in the terminal and write
 "node example.test.js"
 Press enter
 
-Goto the megic folder in the trminal
+Goto the megic folder in the terminal
 "npm i" 
 Press enter
 
