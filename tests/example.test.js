@@ -16,8 +16,6 @@ router.post('/send', (req, res, next) => {
         await new Promise(r => setTimeout(r,timer));
              browser = await puppeteer.launch({headless:true})
              page = await browser.newPage()
-
-
              await page.goto("http://instegram.com")
              await page.waitForSelector('input[name="username"]')
              await page.type('input[name="username"]', user.USER)
@@ -29,9 +27,11 @@ router.post('/send', (req, res, next) => {
              await clickXpath(page, '//button[contains(text(), "Message")]')
              await page.waitForSelector('textarea[placeholder="Message..."]')
              await page.type('textarea[placeholder="Message..."]', conent)
-            await page.keyboard.press('Enter')
-            await page.close()
-            await browser.close()
+             await page.keyboard.press('Enter')
+             await page.close()
+             await browser.close()
+             res.send();
+             res.end();
         })()
     })
 
